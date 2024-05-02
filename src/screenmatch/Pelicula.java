@@ -35,6 +35,11 @@ public class Pelicula {
 				return totalDelasEvaluaciones;
 			}
 
+			
+			public void setNombre(String nombre) {
+				this.nombre = nombre;
+			}
+
 			public void muestraFichaTecnica(){
 	        System.out.println("El nombre de la película es: " + nombre);
 	        System.out.println("Su fecha de lanzamiento es: " + fechaDeLanzamiento);

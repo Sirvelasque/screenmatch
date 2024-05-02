@@ -14,8 +14,7 @@ public class Main {
 	        System.out.println(miPelicula.getTotalDelasEvaluaciones());
 	        System.out.println(miPelicula.calculaMedia());
 
-	        Pelicula otraPelicula = new Pelicula();
-	        otraPelicula.nombre = "Matrix";
+
 
 
 	}
